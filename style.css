@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, main{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+.regContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#regForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#regForm label{
+  align-self: flex-start;
+}
+
+#charName {
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #50d0ff;
+  border-radius: 6px;
+}
+
+#createBtn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.pageTitle {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.toolBarContainer {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolBar {
+  width: 50%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.toolBar img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.fight {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('assets/img/Viktor_Vasnetsov_-_Богатыри_-_Google_Art_Project.jpg');
+  background-size: cover;
+}
+
+.fightBtn {
+  padding: 10px 20px;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  color: #d4af37; /* золотой */
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid #8b4513; /* темно-коричневый */
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fightBtn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fightBtn:active {
+  transform: scale(0.98);
+}
